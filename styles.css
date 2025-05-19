@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.doctor-directory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.doctor-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+}
+
+.doctor-card img {
+  width: 100%;
+  border-radius: 50%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.doctor-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.doctor-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.book-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}
+
+.booking-form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-form form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h2 {
+  margin-bottom: 15px;
+}
+
+.booking-form label {
+  display: block;
+  margin: 5px 0;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-form button {
+  width: 48%;
+  margin: 10px 1%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.booking-form button[type="button"] {
+  background-color: #dc3545;
+  color: white;
+}
